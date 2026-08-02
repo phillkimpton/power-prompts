@@ -1,0 +1,18 @@
+# discount-code-hunter is a coupon reconnaissance and live validation prompt that tells your AI to:
+#  1. Search widely for current promo codes and offers for a specific product or checkout.
+#  2. Check coupon sites, social posts, affiliate codes, Reddit, email-signup deals, and seasonal promotions.
+#  3. List every code found with its claimed saving and source.
+#  4. Enter each code into the actual checkout—not just trust third-party claims.
+#  5. Report which codes apply, which genuinely reduce the price, and identify the best verified deal.
+
+Conduct a deep, exhaustive search for every currently active discount code, coupon, and promotional offer for this exact product:
+
+[INSERT YOUR URL HERE]
+
+Search every available source, including coupon aggregator sites (RetailMeNot, Honey, CouponFollow, Rakuten, Slickdeals, etc.), the brand's own social channels, email signup offers, affiliate/influencer codes, Reddit threads, browser extension databases, seasonal promotions, and any other avenue that may surface a valid code for this specific product or store.
+
+Once your search is complete, list every code you found, one per line, with its claimed discount and source. Then test each code directly on the checkout page for that product URL. For each code, report whether it applied successfully or failed. Identify which working code saves the most money and state the final discounted price it produces.
+Deliver the results in two clear sections:
+
+1. All codes found: code, claimed discount, source
+2. Test results: which codes worked, which failed, and the single best code with its actual savings
